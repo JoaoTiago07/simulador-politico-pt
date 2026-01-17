@@ -1,0 +1,76 @@
+{
+  "indicadores": {
+    "ano": 2026,
+    "mes": 1,
+    "pib": {
+      "valor": 285000,
+      "moeda": "milhões €",
+      "crescimento_anual": 1.5
+    },
+    "desemprego": {
+      "taxa_geral": 6.4,
+      "taxa_jovem": 21.6
+    },
+    "inflacao": 2.4,
+    "populacao": 10500000,
+    "confianca_economia": 58
+  },
+  "regioes": [
+    {
+      "id": 1,
+      "nome": "Norte",
+      "populacao": 3600000,
+      "pib_per_capita": 19000,
+      "desemprego": 6.8,
+      "partido_dominante": "PS"
+    },
+    {
+      "id": 2,
+      "nome": "Centro",
+      "populacao": 1300000,
+      "pib_per_capita": 17000,
+      "desemprego": 6.2,
+      "partido_dominante": "PSD"
+    },
+    {
+      "id": 3,
+      "nome": "AML (Lisboa)",
+      "populacao": 2900000,
+      "pib_per_capita": 24000,
+      "desemprego": 5.8,
+      "partido_dominante": "PS"
+    },
+    {
+      "id": 4,
+      "nome": "Alentejo",
+      "populacao": 700000,
+      "pib_per_capita": 16000,
+      "desemprego": 5.2,
+      "partido_dominante": "PS"
+    },
+    {
+      "id": 5,
+      "nome": "Algarve",
+      "populacao": 450000,
+      "pib_per_capita": 18000,
+      "desemprego": 6.9,
+      "partido_dominante": "PSD"
+    },
+    {
+      "id": 6,
+      "nome": "Açores",
+      "populacao": 246000,
+      "pib_per_capita": 15000,
+      "desemprego": 4.1,
+      "partido_dominante": "PS"
+    },
+    {
+      "id": 7,
+      "nome": "Madeira",
+      "populacao": 245000,
+      "pib_per_capita": 17000,
+      "desemprego": 5.3,
+      "partido_dominante": "PSD"
+    }
+  ]
+}

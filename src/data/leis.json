@@ -1,0 +1,52 @@
+{
+  "leis": [
+    {
+      "id": 1,
+      "numero": "2024/01",
+      "titulo": "Lei de Reforma Fiscal 2024",
+      "descricao": "Aumentar impostos sobre grandes fortunas e reduzir IVA de bens de primeira necessidade",
+      "ano_proposta": 2024,
+      "proponente": "Governo",
+      "impactos_estimados": {
+        "pib": 0.4,
+        "desemprego": -0.3,
+        "receita_fiscal": 180000000,
+        "aprovacao_popular": 8
+      },
+      "grupos_afetados": ["ricos", "classe_media"],
+      "status": "votacao"
+    },
+    {
+      "id": 2,
+      "numero": "2024/02",
+      "titulo": "Lei do Salário Mínimo Nacional",
+      "descricao": "Aumentar salário mínimo nacional de 820€ para 950€",
+      "ano_proposta": 2024,
+      "proponente": "PS",
+      "impactos_estimados": {
+        "pib": -0.2,
+        "desemprego": 0.5,
+        "receita_fiscal": -50000000,
+        "aprovacao_popular": 12
+      },
+      "grupos_afetados": ["trabalhadores", "pequenas_empresas"],
+      "status": "votacao"
+    },
+    {
+      "id": 3,
+      "numero": "2024/03",
+      "titulo": "Lei de Eficiência Energética",
+      "descricao": "Obrigar renovação de 30% dos edifícios até 2030",
+      "ano_proposta": 2024,
+      "proponente": "Governo",
+      "impactos_estimados": {
+        "pib": 1.2,
+        "desemprego": -1.5,
+        "receita_fiscal": 0,
+        "aprovacao_popular": 15
+      },
+      "grupos_afetados": ["construtores", "ambiente"],
+      "status": "votacao"
+    }
+  ]
+}

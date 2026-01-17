@@ -1,0 +1,102 @@
+{
+  "partidos": [
+    {
+      "id": 1,
+      "nome": "Partido Socialista",
+      "sigla": "PS",
+      "cor": "#E74C3C",
+      "deputados": 78,
+      "ideologia": {
+        "esquerdaDireita": -0.3,
+        "autoritarioLibertario": 0.2,
+        "europeuNacional": 0.7
+      },
+      "lider": "Pedro Nuno Santos",
+      "descricao": "Centro-esquerda, progressista, europeísta"
+    },
+    {
+      "id": 2,
+      "nome": "Partido Social Democrata",
+      "sigla": "PSD",
+      "cor": "#FF9800",
+      "deputados": 79,
+      "ideologia": {
+        "esquerdaDireita": 0.3,
+        "autoritarioLibertario": 0.3,
+        "europeuNacional": 0.7
+      },
+      "lider": "Luís Montenegro",
+      "descricao": "Centro-direita, moderado, europeísta"
+    },
+    {
+      "id": 3,
+      "nome": "Chega",
+      "sigla": "CH",
+      "cor": "#000000",
+      "deputados": 50,
+      "ideologia": {
+        "esquerdaDireita": 0.6,
+        "autoritarioLibertario": -0.5,
+        "europeuNacional": -0.6
+      },
+      "lider": "André Ventura",
+      "descricao": "Populista-direita, nacionalista"
+    },
+    {
+      "id": 4,
+      "nome": "Bloco de Esquerda",
+      "sigla": "BE",
+      "cor": "#FF1493",
+      "deputados": 16,
+      "ideologia": {
+        "esquerdaDireita": -0.7,
+        "autoritarioLibertario": 0.6,
+        "europeuNacional": 0.3
+      },
+      "lider": "Marisa Matias",
+      "descricao": "Esquerda radical, progressista"
+    },
+    {
+      "id": 5,
+      "nome": "Partido Comunista Português",
+      "sigla": "PCP",
+      "cor": "#FF0000",
+      "deputados": 12,
+      "ideologia": {
+        "esquerdaDireita": -0.9,
+        "autoritarioLibertario": -0.3,
+        "europeuNacional": 0.0
+      },
+      "lider": "Jerónimo Sousa",
+      "descricao": "Esquerda comunista, tradicional"
+    },
+    {
+      "id": 6,
+      "nome": "Iniciativa Liberal",
+      "sigla": "IL",
+      "cor": "#1E90FF",
+      "deputados": 8,
+      "ideologia": {
+        "esquerdaDireita": 0.5,
+        "autoritarioLibertario": 0.8,
+        "europeuNacional": 0.6
+      },
+      "lider": "João Cotrim Figueiredo",
+      "descricao": "Libertária-direita, liberal"
+    },
+    {
+      "id": 7,
+      "nome": "Livre",
+      "sigla": "LIVRE",
+      "cor": "#228B22",
+      "deputados": 4,
+      "ideologia": {
+        "esquerdaDireita": -0.4,
+        "autoritarioLibertario": 0.7,
+        "europeuNacional": 0.5
+      },
+      "lider": "Francisca Branquinho",
+      "descricao": "Ecologista-esquerda, progressista"
+    }
+  ]
+}

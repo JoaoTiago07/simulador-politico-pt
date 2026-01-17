@@ -2,9 +2,11 @@ import { useState } from 'react'
 import './App.css'
 import ModoSelecao from './components/ModoSelecao'
 import CriacaoPersonagem from './components/CriacaoPersonagem'
+import { GameProvider } from './context/GameContext'
+import Dashboard from './components/Dashboard'
 
 function App() {
-  const [tela_atual, setTelaAtual] = useState('menu') // menu, criacao, jogo
+  const [tela_atual, setTelaAtual] = useState('menu')
   const [modo_selecionado, setModoSelecionado] = useState(null)
   const [personagem, setPersonagem] = useState(null)
 
@@ -13,10 +15,9 @@ function App() {
     setTelaAtual('criacao')
   }
 
-  const handlePersonagemCriado = (personagem) => {
-    setPersonagem(personagem)
+  const handlePersonagemCriado = (personagem_novo) => {
+    setPersonagem(personagem_novo)
     setTelaAtual('jogo')
-    console.log('Personagem criado:', personagem)
   }
 
   return (
@@ -24,22 +25,18 @@ function App() {
       {tela_atual === 'menu' && (
         <ModoSelecao onModoSelecionado={handleModoSelecionado} />
       )}
-      
+
       {tela_atual === 'criacao' && (
-        <CriacaoPersonagem 
+        <CriacaoPersonagem
           modo={modo_selecionado}
           onPersonagemCriado={handlePersonagemCriado}
         />
       )}
 
-      {tela_atual === 'jogo' && (
-        <div className="jogo-container">
-          <h1>🎮 Jogo Iniciado!</h1>
-          <p>Bem-vindo, {personagem?.nome}!</p>
-          <p>Modo: {personagem?.modo}</p>
-          <p>Partido: {personagem?.partido_id}</p>
-          <button onClick={() => setTelaAtual('menu')}>← Menu Principal</button>
-        </div>
+      {tela_atual === 'jogo' && personagem && (
+        <GameProvider personagem_inicial={personagem}>
+          <Dashboard onVoltar={() => setTelaAtual('menu')} />
+        </GameProvider>
       )}
     </div>
   )
